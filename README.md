@@ -4,7 +4,7 @@
 ## 腾讯云公共镜像
 ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime
 
-| 标签名称     |      说明      | 
+| 标签名称     |      说明      |
 |----------|:-------------:|
-| latest |最新镜像，当前为2.2 |
+| latest |最新镜像，当前为3.0 |
 | 2.2 | Asp.Net Core Runtime 2.2 |
