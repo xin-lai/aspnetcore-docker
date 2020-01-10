@@ -1,0 +1,31 @@
+# Docker
+# Build a Docker image 
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
+trigger:
+- latest
+- 2.*
+- 3.*
+
+resources:
+- repo: self
+
+variables:
+  tag: '$(Build.BuildId)'
+
+stages:
+- stage: Build
+  displayName: Build image
+  jobs:  
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+      - task: Docker@2
+        inputs:
+          containerRegistry: 'tecent-cloud-xinlai'
+          repository: 'magicodes/aspnetcore-runtime'
+          command: 'buildAndPush'
+          Dockerfile: '**/Dockerfile'
+          tags: '$(Build.SourceBranchName)'
