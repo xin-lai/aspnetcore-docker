@@ -9,4 +9,5 @@ ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime
 |----------|:-------------:|
 | latest |最新镜像，当前为3.0 |
 | 2.2 | Asp.Net Core Runtime 2.2 |
+| 2.2withfonts | Asp.Net Core Runtime 2.2 （包含字体）|
 | 3.0 | Asp.Net Core Runtime 3.0 |
