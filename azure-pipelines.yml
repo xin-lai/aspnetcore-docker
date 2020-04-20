@@ -22,6 +22,14 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
+        #   ÍÆËÍSDkµÄ°ü
+      - task: Docker@2
+        inputs:
+          containerRegistry: 'tecent-cloud-xinlai'
+          repository: 'magicodes/aspnetcore-sdk'
+          command: 'buildAndPush'
+          Dockerfile: '**/sdk.Dockerfile'
+          tags: '$(Build.SourceBranchName)'
       - task: Docker@2
         inputs:
           containerRegistry: 'tecent-cloud-xinlai'
