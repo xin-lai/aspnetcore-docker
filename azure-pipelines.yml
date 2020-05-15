@@ -27,12 +27,26 @@ stages:
           containerRegistry: 'tecent-cloud-xinlai'
           repository: 'magicodes/aspnetcore-sdk'
           command: 'buildAndPush'
-          Dockerfile: '**/sdk.Dockerfile'
+          Dockerfile: '**/ASPNETCoreSdk.Dockerfile'
           tags: '$(Build.SourceBranchName)'
       - task: Docker@2
         inputs:
           containerRegistry: 'tecent-cloud-xinlai'
           repository: 'magicodes/aspnetcore-runtime'
           command: 'buildAndPush'
-          Dockerfile: '**/Dockerfile'
+          Dockerfile: '**/ASPNETCoreRuntime.Dockerfile'
+          tags: '$(Build.SourceBranchName)'
+      - task: Docker@2
+        inputs:
+          containerRegistry: 'tecent-cloud-xinlai'
+          repository: 'magicodes/netcore-runtime'
+          command: 'buildAndPush'
+          Dockerfile: '**/NETCoreRuntime.Dockerfile'
+          tags: '$(Build.SourceBranchName)'
+      - task: Docker@2
+        inputs:
+          containerRegistry: 'tecent-cloud-xinlai'
+          repository: 'magicodes/netcore-sdk'
+          command: 'buildAndPush'
+          Dockerfile: '**/NETCoreSdk.Dockerfile'
           tags: '$(Build.SourceBranchName)'

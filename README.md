@@ -18,6 +18,8 @@
 目前已提供腾讯云公共镜像和DockerHub公共镜像地址：
 - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime
 - ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk
+- ccr.ccs.tencentyun.com/magicodes/netcore-sdk
+- ccr.ccs.tencentyun.com/magicodes/netcore-runtime
 - magicodes/aspnetcore-runtime
 
 ## 构建说明
@@ -34,6 +36,12 @@
 | 2.2withfonts | Asp.Net Core 2.2 （包含字体）|
 | 3.0 | Asp.Net Core 3.0 |
 | 3.1 | Asp.Net Core 3.1 |
+
+例如：
+> ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:3.1
+> ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:3.1
+> ccr.ccs.tencentyun.com/magicodes/netcore-sdk:3.1
+> ccr.ccs.tencentyun.com/magicodes/netcore-runtime:3.1
 
 ## 联系我们
 
