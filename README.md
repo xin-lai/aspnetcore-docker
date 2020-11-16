@@ -4,6 +4,8 @@
 
 [![Build Status](https://dev.azure.com/xinlaiopencode/aspnetcore-docker/_apis/build/status/xin-lai.aspnetcore-docker?branchName=latest)](https://dev.azure.com/xinlaiopencode/aspnetcore-docker/_build/latest?definitionId=8&branchName=latest)
 
+**Docker相关知识，具体见本人书籍以及公众号文章：**
+[《Docker+Kubernetes应用开发与快速上云》](http://product.dangdang.com/28528278.html)
 
 ## 目的
 加快镜像构建和拉取速度，加速CI\CD构建以及提高开发体验。
@@ -31,17 +33,18 @@
 
 | 标签名称     |      说明      |
 |----------|:-------------:|
-| latest |最新镜像，当前为3.1 |
+| latest |最新镜像，当前为5.0 |
 | 2.2 | Asp.Net Core 2.2 |
 | 2.2withfonts | Asp.Net Core 2.2 （包含字体）|
 | 3.0 | Asp.Net Core 3.0 |
 | 3.1 | Asp.Net Core 3.1 |
+| 5.0 | Asp.Net 5.0 |
 
 例如：
-> ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:3.1
-> ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:3.1
-> ccr.ccs.tencentyun.com/magicodes/netcore-sdk:3.1
-> ccr.ccs.tencentyun.com/magicodes/netcore-runtime:3.1
+> ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
+> ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:5.0
+> ccr.ccs.tencentyun.com/magicodes/netcore-sdk:5.0
+> ccr.ccs.tencentyun.com/magicodes/netcore-runtime:5.0
 
 ## 联系我们
 

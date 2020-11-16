@@ -6,6 +6,7 @@ trigger:
 - latest
 - 2.*
 - 3.*
+- 5.*
 
 resources:
 - repo: self
