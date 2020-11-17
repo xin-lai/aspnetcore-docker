@@ -41,10 +41,10 @@
 | 5.0 | Asp.Net 5.0 |
 
 例如：
-> ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
-> ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:5.0
-> ccr.ccs.tencentyun.com/magicodes/netcore-sdk:5.0
-> ccr.ccs.tencentyun.com/magicodes/netcore-runtime:5.0
+> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
+> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:5.0
+> - ccr.ccs.tencentyun.com/magicodes/netcore-sdk:5.0
+> - ccr.ccs.tencentyun.com/magicodes/netcore-runtime:5.0
 
 ## 联系我们
 
