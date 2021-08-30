@@ -1,9 +1,6 @@
 # 说明
 本库用于构建项目中使用的aspnetcore的运行时公共基础镜像，同时提供了腾讯云公共镜像和Docker Hub公共镜像以供国内外使用。
 
-
-[![Build Status](https://dev.azure.com/xinlaiopencode/aspnetcore-docker/_apis/build/status/xin-lai.aspnetcore-docker?branchName=latest)](https://dev.azure.com/xinlaiopencode/aspnetcore-docker/_build/latest?definitionId=8&branchName=latest)
-
 **Docker相关知识，具体见本人书籍以及公众号文章：**
 [《Docker+Kubernetes应用开发与快速上云》](http://product.dangdang.com/28528278.html)
 
@@ -39,6 +36,7 @@
 | 3.0 | Asp.Net Core 3.0 |
 | 3.1 | Asp.Net Core 3.1 |
 | 5.0 | Asp.Net 5.0 |
+| 5.0withfonts | Asp.Net 5.0（包含字体） |
 
 例如：
 > - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
