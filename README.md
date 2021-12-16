@@ -37,6 +37,7 @@
 | 3.1 | Asp.Net Core 3.1 |
 | 5.0 | Asp.Net 5.0 |
 | 5.0withfonts | Asp.Net 5.0（包含字体） |
+| 6.0 | Asp.Net 6.0 |
 
 例如：
 > - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
