@@ -1,4 +1,13 @@
-#Azure CDN¼ÓËÙ
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS base
-# ÉèÖÃÄ¬ÈÏÊ±Çø
+#Azure CDNï¿½ï¿½ï¿½ï¿½
+FROM mcr.microsoft.com/dotnet/sdk:6.0-bullseye-slim AS base
+# ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Ê±ï¿½ï¿½
 ENV TZ=Asia/Shanghai
+
+# å®‰è£…libgdiplusåº“ï¼Œç”¨äºŽExcelå¯¼å‡º
+RUN apt-get update && apt-get install -y apt-utils libgdiplus libc6-dev
+
+# å®‰è£…fontconfigåº“ï¼Œç”¨äºŽPdfå¯¼å‡º
+RUN apt-get update && apt-get install -y fontconfig
+COPY /simsun.ttc /usr/share/fonts/simsun.ttc
+
+WORKDIR /app

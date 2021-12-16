@@ -6,6 +6,7 @@ trigger:
 - latest
 - 2.*
 - 3.*
+- 6.*
 
 resources:
 - repo: self
@@ -22,7 +23,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-        #   ÍÆËÍSDkµÄ°ü
+        #   ï¿½ï¿½ï¿½ï¿½SDkï¿½Ä°ï¿½
       - task: Docker@2
         inputs:
           containerRegistry: 'tecent-cloud-xinlai'
