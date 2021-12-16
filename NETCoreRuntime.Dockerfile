@@ -1,5 +1,5 @@
 #Azure CDN加速
-FROM mcr.microsoft.com/dotnet/runtime:6.0-buster-slim AS base
+FROM mcr.microsoft.com/dotnet/runtime:6.0-bullseye-slim AS base
 
 # 设置默认时区
 ENV TZ=Asia/Shanghai
