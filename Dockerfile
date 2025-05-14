@@ -3,8 +3,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 # 设置默认时区
 ENV TZ=Asia/Shanghai
 
-# 安装libgdiplus库，用于Excel导出
-RUN apt-get update && apt-get install -y apt-utils libgdiplus libc6-dev
+# 安装libgdiplus库，用于Excel、Pdf导出
+RUN apt-get update && apt-get install -y apt-utils libgdiplus libc6-dev libjpeg62-turbo libxrender1 xfonts-75dpi xfonts-base
 
 # 安装fontconfig库，用于Pdf导出
 RUN apt-get update && apt-get install -y fontconfig
