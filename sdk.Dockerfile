@@ -1,6 +1,4 @@
-#Azure CDN����
-FROM mcr.microsoft.com/dotnet/sdk:6.0-bullseye-slim AS base
-# ����Ĭ��ʱ��
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS base
 ENV TZ=Asia/Shanghai
 
 # 安装libgdiplus库，用于Excel导出
