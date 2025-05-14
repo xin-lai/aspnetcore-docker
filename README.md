@@ -41,6 +41,7 @@
 | 6.0withfonts | Asp.Net 6.0（包含字体） |
 | 8.0 | Asp.Net 8.0 |
 | 8.0withfonts | Asp.Net 8.0（包含字体） |
+| 9.0 | Asp.Net 9.0 |
 
 例如：
 > - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
