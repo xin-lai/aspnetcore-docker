@@ -17,6 +17,7 @@ RUN apt-get update \
 		libfontconfig1 \
 		libfontenc1 \
 		libfreetype6 \
+  		libjpeg62 \
 		libjpeg62-turbo \
 		libpng16-16 \
 		libx11-6 \
