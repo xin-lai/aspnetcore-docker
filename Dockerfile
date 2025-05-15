@@ -19,7 +19,6 @@ RUN apt-get update \
 		libfreetype6 \
 		libjpeg62-turbo \
 		libpng16-16 \
-		libssl1.1 \
 		libx11-6 \
 		libx11-data \
 		libxau6 \
