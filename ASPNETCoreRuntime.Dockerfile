@@ -1,5 +1,5 @@
 #Azure CDN加速
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
 
 # 设置默认时区
 ENV TZ=Asia/Shanghai

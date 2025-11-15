@@ -30,7 +30,7 @@
 
 | 标签名称     |      说明      |
 |----------|:-------------:|
-| latest |最新镜像，当前为5.0 |
+| latest |最新镜像，当前为10.0 |
 | 2.2 | Asp.Net Core 2.2 |
 | 2.2withfonts | Asp.Net Core 2.2 （包含字体）|
 | 3.0 | Asp.Net Core 3.0 |
@@ -42,12 +42,13 @@
 | 8.0 | Asp.Net 8.0 |
 | 8.0withfonts | Asp.Net 8.0（包含字体） |
 | 9.0 | Asp.Net 9.0 |
+| 10.0 | Asp.Net 10.0 |
 
 例如：
-> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:5.0
-> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:5.0
-> - ccr.ccs.tencentyun.com/magicodes/netcore-sdk:5.0
-> - ccr.ccs.tencentyun.com/magicodes/netcore-runtime:5.0
+> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-runtime:10.0
+> - ccr.ccs.tencentyun.com/magicodes/aspnetcore-sdk:10.0
+> - ccr.ccs.tencentyun.com/magicodes/netcore-sdk:10.0
+> - ccr.ccs.tencentyun.com/magicodes/netcore-runtime:10.0
 
 ## 联系我们
 
@@ -55,19 +56,6 @@
 
 关注“麦扣聊技术”订阅号可以获得最新文章、教程、文档
 
-> #### QQ群
-
-- 编程交流群<85318032>
-
-- 产品交流群<897857351>
-
 > #### 文档官网&官方博客
 
-- 文档官网：<https://docs.xin-lai.com/>
 - 博客：<http://www.cnblogs.com/codelove/>
-
-
-> #### 其他开源库
-
-- <https://github.com/xin-lai>
-- <https://gitee.com/magicodes>
